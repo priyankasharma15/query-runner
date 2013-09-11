@@ -54,7 +54,6 @@ THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 			<TH>CONNECTION_DESCRIPTION</TH>
 			<TH>URL</TH>
 			<TH>USERNAME</TH>
-			<TH>PASSWORD</TH>
 			<TH>STATUS</TH>
 			<TH>EDIT</TH>
 		</TR>
@@ -73,7 +72,6 @@ THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 			<TD><a href="SelectConnection?id=<%=ci.getId()%>"><%=ci.getConnectionDescription()%></a></TD>
 			<TD><a href="SelectConnection?id=<%=ci.getId()%>"><%=ci.getUrl()%></a></TD>
 			<TD><a href="SelectConnection?id=<%=ci.getId()%>"><%=ci.getUsername()%></a></TD>
-			<TD><a href="SelectConnection?id=<%=ci.getId()%>"><%=ci.getPassword()%></a></TD>
 			<TD><a href="SelectConnection?id=<%=ci.getId()%>"><%=ci.getStatus()%></a></TD>
 			<TD><a href="EditConnection.jsp?id=<%=ci.getId()%>">Edit</a></TD>
 
