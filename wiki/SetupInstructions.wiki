@@ -12,7 +12,7 @@ Below are the instructions for setting up and running query runner.
 
   * Download the query-runner.zip file. The link to query-runner.zip file is present on the [Downloads] page.
 
-  * query-runner.zip file has setup.sql which can be run on to create all the required tables. Run this script on the database wherein you want to create the query-runner tables. The connection information to this database will need to be updated in the properties file in the next steps.
+  * query-runner.zip file has setup.sql which can be run on any database to create all the required tables. Run this script on the database wherein you want to create the query-runner tables. The connection information to this database will need to be updated in the properties file in subsequent steps.
 
   * Create a folder name query-runner in C drive like {{{ c:\query-runner }}}
 
@@ -27,11 +27,10 @@ Below are the instructions for setting up and running query runner.
         DB_PASSWORD=edit_me
 }}}
 
-  * Now copy the {{{query-runner.war}}} file in to the folder name {{{webapps}}} which is inside the tomcat folder.
+  * Now copy the {{{query-runner.war}}} file in to the folder name {{{webapps}}} which is inside the tomcat folder {{{ C:\query-runner\apache-tomcat-7.0.42 }}}.
 
   * Start the tomcat by running the batch file {{{ c:\query-runner\apache-tomcat-7.0.42\bin\startup.bat }}}
     The folder name of the tomcat can be different based on tomcat version number.
 
-  * Open the browser and give this below given URL
+  * Open the browser and give this below given URL to run query-runner
    http://localhost:8080/query-runner
-
