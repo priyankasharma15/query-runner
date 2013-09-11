@@ -34,3 +34,4 @@ Below are the instructions for setting up and running query runner.
 
   * Open the browser and give this below given URL
    http://localhost:8080/query-runner
+
