@@ -1,7 +1,7 @@
 
 
 <div id="banner" align="center">
-	<h1>QUALITY RUNNER</h1>
+	<h1>QUERY RUNNER</h1>
 </div>
 
 <% if (request.getSession()==null){
