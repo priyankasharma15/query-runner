@@ -59,7 +59,7 @@ public class UserLogInManager {
 		} else if (us == null) {
 			result = false;
 		} else if ((us.getPassword().equals(us1.getPassword()))
-				&& (us.getStatus().equals("Active"))) {
+				&& (us.getStatus().equals("Y"))) {
 			result = true;
 		} else {
 			result = false;
