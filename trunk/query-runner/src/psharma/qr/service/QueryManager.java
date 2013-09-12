@@ -46,6 +46,7 @@ public class QueryManager {
 		QueryInfoManager qim = new QueryInfoManager();
 		QueryInfo qi;
 		qi = qim.getQueryInfo(2);
+		String query = qi.getSqlQuery();
 		ConInfoManager cim = new ConInfoManager();
 		ConnectionInfo ci = new ConnectionInfo();
 		ci = cim.getConnectionInfo(1);
