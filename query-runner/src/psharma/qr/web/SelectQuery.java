@@ -68,6 +68,7 @@ public class SelectQuery extends HttpServlet {
 		qr = qm.getQuery(qi, ci, params);
 
 		HttpSession hp = request.getSession(true);
+		hp.setAttribute("Query", qi.getSqlQuery()) ;
 		hp.setAttribute("QueryResult", qr);
 		response.sendRedirect("Result.jsp");
 
