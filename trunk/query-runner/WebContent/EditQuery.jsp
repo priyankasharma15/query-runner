@@ -58,7 +58,7 @@ THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 			<TR>
 				<TD align="right">Id</TD>
-				<TD align="right"><input value="<%=qi.getId()%>" type="text" name="id"maxlength="4" /></TD>
+				<TD ><input value="<%=qi.getId()%>" type="text" name="id"maxlength="4" /></TD>
 			</TR>
 			<TR>
 				<TD align="right">Query Name</TD>
@@ -70,11 +70,11 @@ THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 			</TR>
 			<TR>
 				<TD align="right">Sql Query</TD>
-				<TD align="right"><textarea rows="4" cols="40" name="sqlQuery" id='sqlQuery'> <%=qi.getSqlQuery()%> </textarea></TD>
+				<TD><textarea rows="4" cols="40" name="sqlQuery" id='sqlQuery'> <%=qi.getSqlQuery()%> </textarea></TD>
 			</TR>
 			<TR>
 				<TD align="right">NumParam</TD>
-				<TD align="right"><input value="<%=qi.getNumParam()%>" type="text" name="numParam" /></TD>
+				<TD ><input value="<%=qi.getNumParam()%>" type="text" name="numParam" /></TD>
 			</TR>
 			<TR>
 				<TD>Params</TD>
@@ -82,7 +82,7 @@ THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 			</TR>
 			<TR>
 				<TD align="right">Status</TD>
-				<TD align="right"><input value="<%=qi.getStatus()%>" type="text" name="status" maxlength="1"/></TD>
+				<TD ><input value="<%=qi.getStatus()%>" type="text" name="status" maxlength="1"/></TD>
 			</TR>
 			<TR>
 				<TD align="right"><input type="submit" name="submit" /></TD>
